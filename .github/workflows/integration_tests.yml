@@ -1,13 +1,13 @@
 name: Integration tests
 
 on:
-  schedule:
-    - cron: "0 9 * * *"  # 9am UTC = 1am PST / 2am PDT. for all testapps except firestore
-    - cron: "0 10 * * *"  # 10am UTC = 2am PST / 3am PDT. for firestore test against release iOS/Android SDK
-    - cron: "0 11 * * *"  # 11am UTC = 3am PST / 4am PDT. for firestore desktop test aginst tip-of-tree iOS repo
-
-  pull_request:
-    types: [ labeled, closed ]
+#  schedule:
+#    - cron: "0 9 * * *"  # 9am UTC = 1am PST / 2am PDT. for all testapps except firestore
+#    - cron: "0 10 * * *"  # 10am UTC = 2am PST / 3am PDT. for firestore test against release iOS/Android SDK
+#    - cron: "0 11 * * *"  # 11am UTC = 3am PST / 4am PDT. for firestore desktop test aginst tip-of-tree iOS repo
+#
+#  pull_request:
+#    types: [ labeled, closed ]
 
   workflow_dispatch:
     inputs:

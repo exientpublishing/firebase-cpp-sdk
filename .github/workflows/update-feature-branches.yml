@@ -10,8 +10,8 @@ on:
         description: 'Main branch to merge'
         default: 'main'
         required: true
-  schedule:
-    - cron: "0 16 * * 1"  # Mondays, 4pm UTC = 9am PST / 10am PDT
+#  schedule:
+#    - cron: "0 16 * * 1"  # Mondays, 4pm UTC = 9am PST / 10am PDT
 
 env:
   defaultBranchPattern: "feature_branch/*"

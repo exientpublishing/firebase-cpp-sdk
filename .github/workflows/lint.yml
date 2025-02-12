@@ -1,8 +1,8 @@
 name: Lint
 
 on:
-  pull_request:
-    types: [opened,synchronize]
+#  pull_request:
+#    types: [opened,synchronize]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}

@@ -1,11 +1,11 @@
 name: CPP binary SDK packaging
 on:
-  push:
-    branches:
-      # Run a full packaging step any time a new branch is merged into main.
-      - main
-  schedule:
-    - cron: "0 8 * * *"  # 8am UTC = 12am PST / 1am PDT
+#  push:
+#    branches:
+#      # Run a full packaging step any time a new branch is merged into main.
+#      - main
+#  schedule:
+#    - cron: "0 8 * * *"  # 8am UTC = 12am PST / 1am PDT
   workflow_dispatch:
     inputs:
       preserveIntermediateArtifacts:

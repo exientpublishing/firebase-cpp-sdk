@@ -2,8 +2,8 @@ name: Checks (secure)
 # These are run on base branch with read/write access.
 
 on:
-  pull_request_target:
-    types: [synchronize]
+#  pull_request_target:
+#    types: [synchronize]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}

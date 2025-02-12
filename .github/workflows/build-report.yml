@@ -2,8 +2,8 @@ name: Generate Test Report Table
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 21 * * *"  # 9pm UTC = 1pm PST / 2pm PDT, 12 hours after testapps run
+#  schedule:
+#    - cron: "0 21 * * *"  # 9pm UTC = 1pm PST / 2pm PDT, 12 hours after testapps run
 
 env:
   GITHUB_TOKEN: ${{ github.token }}
